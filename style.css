@@ -1,0 +1,104 @@
+body {
+    background-color: #f5ebe0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 35px;
+    color: #d5bdaf;
+    font-weight: 800px;
+    font-family: "Rubik Bubbles", system-ui;
+  }
+  .alignmenti{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6ccc2;
+    color: palevioletred;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  
+  
+  
+  }
+  
+  #items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .alignment, .alignmenti {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d6ccc2;
+    color: #edede9;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  .alignment i, .alignmenti i {
+    font-size: 16px;
+  }
+  
+  .alignment:hover, .alignmenti:hover {
+    background-color: #d6ccc2;
+    transform: scale(1.1);
+  }
+  
+  .alignment:active, .alignmenti:active {
+    background-color: #d6ccc2;
+    transform: scale(1.05);
+  }
+  
+  .alignmenti * {
+    margin: 0 25px; 
+  }
+  
+  .alignment * {
+    margin: 0 25px; 
+  }
+  .text-editor {
+              width: 70%;
+              height: 450px;
+              margin-left: 15%;
+              padding: 20px;
+              font-size: 16px;
+              font-family: Arial, sans-serif;
+              border: 1px solid #ccc;
+              border-radius: 15px;
+              resize: vertical; 
+          }
+          .fancy-text {
+            font-weight: bold;
+              font-family: 'Arial Black', Gadget, sans-serif;
+              font-size: 24px;
+              color: #e9b9b0;
+              text-decoration: underline;
+              text-decoration-color: #e9b9b0;
+          }
+  
